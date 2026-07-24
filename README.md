@@ -34,7 +34,7 @@ Isolation Forest, trained with **no fraud labels at all**, underperforms both su
 
 SHAP (bar, beeswarm, and waterfall plots) is used to explain individual fraud predictions from the SMOTE-trained model, so a flagged transaction can be justified by its specific contributing features rather than treated as a black-box output.
 
-*(Add a saved SHAP plot image here, e.g. `assets/shap_waterfall.png`)*
+![SHAP waterfall plot](assets/shap_waterfall.png)
 
 ---
 
@@ -94,7 +94,11 @@ jupyter notebook notebooks/02_modeling.ipynb
 
 ## 📷 Screenshots
 
-*(Add screenshots of the deployed app here — single prediction view, batch upload view, and dashboard metrics.)*
+**Single Transaction Prediction**
+![Single prediction](assets/app_single_prediction.png)
+
+**Batch Prediction**
+![Batch prediction](assets/app_batch_upload.png)
 
 ---
 
